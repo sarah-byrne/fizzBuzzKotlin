@@ -15,4 +15,8 @@ fun main(args : Array<String>) {
   println("5: "+ fizzbuzz(5))
   println("15: "+ fizzbuzz(15))
   println("23: "+ fizzbuzz(23))
+
+  for (i in 1..100) {
+    println(fizzbuzz(i))
+  }
 }
